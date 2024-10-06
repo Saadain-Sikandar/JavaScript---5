@@ -115,13 +115,25 @@
 
 // ------------------------------------------------------------------------------------------
 
-// 8. Write a program to ask the user about his age. Calculate
+// 8. Write a program to ask the user about his birth year. Calculate
+// his age.
+
+// var currYear = new Date();
+// currYear = currYear.getFullYear();
+
+// var birthYear = prompt("Enter Your Birth year:");
+
+// var age = currYear - birthYear;
+// alert(`Your Age is: ${age}`);
+
+// --------------------------------------------------------------------------------------
+
+
+// 9. Write a program to ask the user about his age. Calculate
 // and show his birth year in your browser.
 
-var currYear = new Date();
-currYear = currYear.getFullYear();
+// var age = prompt(`Enter your Age:`);
+// var curryear = new Date().getFullYear();
+// var birthYear = curryear - age;
 
-var birthYear = prompt("Enter Your Birth year:");
-
-var age = currYear - birthYear;
-alert(`Your Age is: ${age}`);
+// alert(`Your Birth Year is:${birthYear}`);
